@@ -7,19 +7,19 @@ import json
 import os
 import logging
 from typing import Optional, Dict, Any, List
-from .llms import OpenRouterLLM, BaseLLM
-from .nodes import (
+from llms import OpenRouterLLM, BaseLLM
+from nodes import (
     FormulaAnalysisNode,
     CodeGenerationNode,
     ValidationNode
 )
-from .state import RiskAnalysisState
-from .utils import Config, load_config
+from state import RiskAnalysisState
+from utils.config import *
 
 class RiskFormulaParserAgent:
     """Risk Formula Parser Agent主类"""
     
-    def __init__(self, config: Optional[Config] = None):
+    def __init__(self, config: Optional[Config] = config):
         """
         初始化Risk Formula Parser Agent
         
@@ -157,7 +157,7 @@ class RiskFormulaParserAgent:
         is_valid = validation_result.get("is_valid", False)
         print(f"  - 代码验证完成: {'通过' if is_valid else '失败'}")
         return is_valid
-        
+
     def _validate_generated_code_with_details(self, code: str, model_items: List[Dict]) -> Dict:
         """验证生成的代码并返回详细结果"""
         print("  - 验证生成的代码...")

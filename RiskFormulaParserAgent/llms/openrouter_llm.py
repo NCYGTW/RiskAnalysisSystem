@@ -30,7 +30,7 @@ class OpenRouterLLM(BaseLLM):
         )
         # 设置请求头
         self.extra_headers = {
-            "HTTP-Referer": "http://localhost:3000",
+            "HTTP-Referer": "http://localhost:10808",
             "X-Title": "Risk Formula Parser"
         }
         # 添加速率限制控制

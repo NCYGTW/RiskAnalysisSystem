@@ -1,0 +1,420 @@
+[
+  {
+    "id": "rule_20251002_509",
+    "risk_point": "提前确认营业收入",
+    "rule_text": "当营业收入同比增幅超过行业75分位值，且应收账款同比增幅超过行业75分位值，同时经营活动现金流净额/营业收入低于行业25分位值时，可能存在提前确认营业收入风险",
+    "dsl": "(a > c) && (e > q75_e_ind) && (g < q25_g_ind)",
+    "variables_used": {
+      "a": {
+        "name": "营业收入同比(%)",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "c": {
+        "name": "行业营业收入YoY Q75",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "e": {
+        "name": "应收账款同比(%)",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "q75_e_ind": {
+        "name": "行业应收YoY Q75",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "g": {
+        "name": "经营活动现金流净额/营业收入",
+        "period": "TTM",
+        "unit": "ratio"
+      },
+      "q25_g_ind": {
+        "name": "行业g分位25%",
+        "period": "TTM",
+        "unit": "ratio"
+      }
+    },
+    "source_refs": [
+      "stats:行业营业收入YoY Q75",
+      "stats:行业应收YoY Q75",
+      "stats:行业g分位25%",
+      "text:收入确认以控制权转移为前提",
+      "text:经营性现金流同比下降5%"
+    ],
+    "safety_hints": [
+      "检查营业收入和应收账款同比数据的完整性",
+      "注意经营活动现金流净额/营业收入计算时的分母不为零",
+      "确保行业基准数据与公司数据期间匹配"
+    ],
+    "compiled": true
+  },
+  {
+    "id": "rule_20251002_342",
+    "risk_point": "虚增营业收入",
+    "rule_text": "当营业收入同比增幅超过行业75分位值（7.8%）且应收账款同比增幅超过行业75分位值，同时经营活动现金流净额/营业收入低于行业25分位值时，可能存在虚增营业收入风险",
+    "dsl": "(a > c) && (e > q75_e_ind) && (g < q25_g_ind)",
+    "variables_used": {
+      "a": {
+        "name": "营业收入同比(%)",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "c": {
+        "name": "行业营业收入YoY Q75",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "e": {
+        "name": "应收账款同比(%)",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "q75_e_ind": {
+        "name": "行业应收YoY Q75",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "g": {
+        "name": "经营活动现金流净额/营业收入",
+        "period": "TTM",
+        "unit": "ratio"
+      },
+      "q25_g_ind": {
+        "name": "行业g分位25%",
+        "period": "TTM",
+        "unit": "ratio"
+      }
+    },
+    "source_refs": [
+      "stats:行业营业收入YoY Q75（7.8%）",
+      "stats:行业应收YoY Q75",
+      "stats:行业g分位25%",
+      "text:收入确认以控制权转移为前提",
+      "text:经营性现金流同比下降"
+    ],
+    "safety_hints": [
+      "检查同比数据完整性，避免缺失值影响判断",
+      "注意营业收入和应收账款同比单位一致性（均为%）",
+      "验证经营活动现金流净额/营业收入计算时避免除零错误"
+    ],
+    "compiled": true
+  },
+  {
+    "id": "rule_20251002_281",
+    "risk_point": "少计成本或费用",
+    "rule_text": "当应收账款同比增幅超过行业75分位值且经营活动现金流净额/营业收入低于行业25分位值时，可能存在少计成本或费用风险",
+    "dsl": "e > q75_e_ind && g < q25_g_ind",
+    "variables_used": {
+      "e": {
+        "name": "应收账款同比(%)",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "q75_e_ind": {
+        "name": "行业应收YoY Q75",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "g": {
+        "name": "经营活动现金流净额/营业收入",
+        "period": "TTM",
+        "unit": "ratio"
+      },
+      "q25_g_ind": {
+        "name": "行业g分位25%",
+        "period": "TTM",
+        "unit": "ratio"
+      }
+    },
+    "source_refs": [
+      "stats:行业应收YoY Q75",
+      "stats:行业g分位25%",
+      "text:应收账款周转率下降15%",
+      "text:经营性现金流同比下降5%"
+    ],
+    "safety_hints": [
+      "检查应收账款和营业收入数据完整性",
+      "注意经营活动现金流净额与营业收入的期间匹配",
+      "确认行业分位值计算基准的一致性"
+    ],
+    "compiled": true
+  },
+  {
+    "id": "rule_20251002_548",
+    "risk_point": "持续经营假设不合理",
+    "rule_text": "当营业收入同比增幅低于行业75分位值且经营活动现金流净额/营业收入低于行业25分位值时，可能存在持续经营假设不合理风险",
+    "dsl": "a < c && g < q25_g_ind",
+    "variables_used": {
+      "a": {
+        "name": "营业收入同比(%)",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "c": {
+        "name": "行业营业收入YoY Q75",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "g": {
+        "name": "经营活动现金流净额/营业收入",
+        "period": "TTM",
+        "unit": "ratio"
+      },
+      "q25_g_ind": {
+        "name": "行业g分位25%",
+        "period": "TTM",
+        "unit": "ratio"
+      }
+    },
+    "source_refs": [
+      "stats:行业营业收入YoY Q75",
+      "stats:行业g分位25%",
+      "text:行业协会口径：收入同比中位数7.8%",
+      "text:经营性现金流同比下降5%"
+    ],
+    "safety_hints": [
+      "检查行业基准数据的时效性和可比性",
+      "注意TTM数据与YoY数据的期间匹配",
+      "确认现金流和收入数据的完整性"
+    ],
+    "compiled": true
+  },
+  {
+    "id": "rule_20251002_146",
+    "risk_point": "关联方占用资金",
+    "rule_text": "当应收账款同比增幅超过行业75分位值且经营活动现金流净额/营业收入低于行业25分位值时，可能存在关联方占用资金风险",
+    "dsl": "e > q75_e_ind && g < q25_g_ind",
+    "variables_used": {
+      "e": {
+        "name": "应收账款同比(%)",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "q75_e_ind": {
+        "name": "行业应收YoY Q75",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "g": {
+        "name": "经营活动现金流净额/营业收入",
+        "period": "TTM",
+        "unit": "ratio"
+      },
+      "q25_g_ind": {
+        "name": "行业g分位25%",
+        "period": "TTM",
+        "unit": "ratio"
+      }
+    },
+    "source_refs": [
+      "stats:行业应收YoY Q75",
+      "stats:行业g分位25%",
+      "text:应收账款周转率下降15%",
+      "text:经营性现金流同比下降5%"
+    ],
+    "safety_hints": [
+      "检查应收账款和现金流数据的完整性",
+      "注意同比数据的同期可比性",
+      "验证行业分位值计算的样本量充足性"
+    ],
+    "compiled": true
+  },
+  {
+    "id": "rule_20251002_629",
+    "risk_point": "短长期债务违约",
+    "rule_text": "当经营活动现金流净额/营业收入(TTM)低于行业25分位值，且应收账款同比增幅超过行业75分位值时，可能存在债务违约风险",
+    "dsl": "g < q25_g_ind && e > q75_e_ind",
+    "variables_used": {
+      "g": {
+        "name": "经营活动现金流净额/营业收入",
+        "period": "TTM",
+        "unit": "ratio"
+      },
+      "q25_g_ind": {
+        "name": "行业g分位25%",
+        "period": "TTM",
+        "unit": "ratio"
+      },
+      "e": {
+        "name": "应收账款同比(%)",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "q75_e_ind": {
+        "name": "行业应收YoY Q75",
+        "period": "YoY",
+        "unit": "pct"
+      }
+    },
+    "source_refs": [
+      "stats:行业基准数据（q25_g_ind, q75_e_ind）",
+      "text:经营性现金流同比下降5%、应收账款周转率下降15%"
+    ],
+    "safety_hints": [
+      "检查经营活动现金流净额是否为负值",
+      "确认应收账款同比数据的完整性",
+      "注意行业基准数据的时效性和可比性"
+    ],
+    "compiled": true
+  },
+  {
+    "id": "rule_20251002_719",
+    "risk_point": "资产减值准备计提不足",
+    "rule_text": "当应收账款同比增幅超过行业75分位值且经营活动现金流净额/营业收入低于行业25分位值时，可能存在资产减值准备计提不足风险",
+    "dsl": "e > q75_e_ind && g < q25_g_ind",
+    "variables_used": {
+      "e": {
+        "name": "应收账款同比(%)",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "g": {
+        "name": "经营活动现金流净额/营业收入",
+        "period": "TTM",
+        "unit": "ratio"
+      },
+      "q75_e_ind": {
+        "name": "行业应收YoY Q75",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "q25_g_ind": {
+        "name": "行业g分位25%",
+        "period": "TTM",
+        "unit": "ratio"
+      }
+    },
+    "source_refs": [
+      "stats:行业应收YoY Q75",
+      "stats:行业g分位25%",
+      "text:应收账款周转率下降15%",
+      "text:经营性现金流同比下降5%"
+    ],
+    "safety_hints": [
+      "检查应收账款和现金流数据的完整性",
+      "确保行业基准数据与公司数据期间匹配",
+      "注意百分比与比率单位的差异处理"
+    ],
+    "compiled": true
+  },
+  {
+    "id": "rule_20251002_307",
+    "risk_point": "货币资金错报",
+    "rule_text": "当应收账款同比增幅超过行业75分位值且经营活动现金流净额/营业收入低于行业25分位值时，可能存在货币资金错报风险",
+    "dsl": "e > q75_e_ind && g < q25_g_ind",
+    "variables_used": {
+      "e": {
+        "name": "应收账款同比(%)",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "g": {
+        "name": "经营活动现金流净额/营业收入",
+        "period": "TTM",
+        "unit": "ratio"
+      },
+      "q75_e_ind": {
+        "name": "行业应收YoY Q75",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "q25_g_ind": {
+        "name": "行业g分位25%",
+        "period": "TTM",
+        "unit": "ratio"
+      }
+    },
+    "source_refs": [
+      "stats:行业基准数据",
+      "text:应收账款周转率下降15%",
+      "text:经营性现金流同比下降5%"
+    ],
+    "safety_hints": [
+      "检查应收账款和现金流数据的完整性",
+      "注意同比计算基期的准确性",
+      "验证行业分位值数据的时效性"
+    ],
+    "compiled": true
+  },
+  {
+    "id": "rule_20251002_611",
+    "risk_point": "信用或资产减值损失错报",
+    "rule_text": "当应收账款同比增幅超过行业75分位值且经营活动现金流净额/营业收入低于行业25分位值时，可能存在信用或资产减值损失错报风险",
+    "dsl": "e > q75_e_ind && g < q25_g_ind",
+    "variables_used": {
+      "e": {
+        "name": "应收账款同比(%)",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "q75_e_ind": {
+        "name": "行业应收YoY Q75",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "g": {
+        "name": "经营活动现金流净额/营业收入",
+        "period": "TTM",
+        "unit": "ratio"
+      },
+      "q25_g_ind": {
+        "name": "行业g分位25%",
+        "period": "TTM",
+        "unit": "ratio"
+      }
+    },
+    "source_refs": [
+      "stats:行业应收YoY Q75",
+      "stats:行业g分位25%",
+      "text:应收账款周转率下降15%",
+      "text:经营性现金流同比下降5%"
+    ],
+    "safety_hints": [
+      "检查应收账款和现金流数据的完整性",
+      "注意同比数据的期间匹配一致性",
+      "验证行业分位值数据的时效性和代表性"
+    ],
+    "compiled": true
+  },
+  {
+    "id": "rule_20251002_960",
+    "risk_point": "合并范围异常变动",
+    "rule_text": "当营业收入同比增幅超过行业75分位值15个百分点，且应收账款同比增幅超过行业75分位值20个百分点时，可能存在合并范围异常变动风险",
+    "dsl": "(a > c + 15.0) && (e > q75_e_ind + 20.0)",
+    "variables_used": {
+      "a": {
+        "name": "营业收入同比(%)",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "c": {
+        "name": "行业营业收入YoY Q75",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "e": {
+        "name": "应收账款同比(%)",
+        "period": "YoY",
+        "unit": "pct"
+      },
+      "q75_e_ind": {
+        "name": "行业应收YoY Q75",
+        "period": "YoY",
+        "unit": "pct"
+      }
+    },
+    "source_refs": [
+      "stats:行业营业收入YoY Q75基准",
+      "stats:行业应收YoY Q75基准",
+      "text:收入确认以控制权转移为前提"
+    ],
+    "safety_hints": [
+      "检查同比数据计算基期的准确性",
+      "注意行业基准数据的时效性和可比性",
+      "确认合并报表范围变动对同比数据的影响"
+    ],
+    "compiled": true
+  }
+]

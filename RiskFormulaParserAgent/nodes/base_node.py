@@ -4,8 +4,8 @@
 
 from abc import ABC, abstractmethod
 from typing import Any, Dict, Optional
-from ..llms.base import BaseLLM
-from ..state.state import RiskAnalysisState
+from llms.base import BaseLLM
+from state.state import RiskAnalysisState
 
 class BaseNode(ABC):
     """节点基类"""

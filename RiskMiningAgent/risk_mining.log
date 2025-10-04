@@ -1,0 +1,1097 @@
+2025-10-02 11:48:35,249 - __main__ - INFO - 无监督风险模型挖掘系统启动
+2025-10-02 11:48:35,250 - __main__ - INFO - 使用模型: deepseek/deepseek-chat-v3.1:free
+2025-10-02 11:48:35,251 - src.utils.data_loader - INFO - 从文件 C:\Users\lenovo\Desktop\RiskMiningSystem\data\risk_points.json 加载到 10 个风险点
+2025-10-02 11:48:35,251 - __main__ - INFO - 加载到 10 个风险点
+2025-10-02 11:48:35,251 - src.core.rule_generator - WARNING - 未配置OpenRouter API密钥
+2025-10-02 11:48:35,252 - src.utils.data_loader - ERROR - 无法找到示例规则文件: None 或 C:\Users\lenovo\Desktop\RiskMiningSystem\data\example_rules.json
+2025-10-02 11:48:35,252 - __main__ - ERROR - 系统运行错误: 无法找到示例规则文件: None 或 C:\Users\lenovo\Desktop\RiskMiningSystem\data\example_rules.json
+2025-10-02 11:52:24,204 - __main__ - INFO - 无监督风险模型挖掘系统启动
+2025-10-02 11:52:24,204 - __main__ - INFO - 使用模型: deepseek/deepseek-chat-v3.1:free
+2025-10-02 11:52:24,205 - src.utils.data_loader - INFO - 从文件 C:\Users\lenovo\Desktop\RiskMiningSystem\data\risk_points.json 加载到 10 个风险点
+2025-10-02 11:52:24,205 - __main__ - INFO - 加载到 10 个风险点
+2025-10-02 11:52:24,205 - src.core.rule_generator - WARNING - 未配置OpenRouter API密钥
+2025-10-02 11:52:24,205 - src.utils.data_loader - ERROR - 无法找到示例规则文件: None 或 C:\Users\lenovo\Desktop\RiskMiningSystem\data\example_rules.json
+2025-10-02 11:52:24,206 - __main__ - ERROR - 系统运行错误: 无法找到示例规则文件: None 或 C:\Users\lenovo\Desktop\RiskMiningSystem\data\example_rules.json
+2025-10-02 12:02:14,163 - __main__ - INFO - 无监督风险模型挖掘系统启动
+2025-10-02 12:02:14,164 - __main__ - INFO - 使用模型: deepseek/deepseek-chat-v3.1:free
+2025-10-02 12:02:14,164 - src.utils.data_loader - INFO - 从文件 C:\Users\lenovo\Desktop\RiskMiningSystem\data\risk_points.json 加载到 10 个风险点
+2025-10-02 12:02:14,164 - __main__ - INFO - 加载到 10 个风险点
+2025-10-02 12:02:14,164 - src.core.rule_generator - WARNING - 未配置OpenRouter API密钥
+2025-10-02 12:02:14,164 - src.utils.data_loader - INFO - 从 TemplateManager 加载到 3 条示例规则
+2025-10-02 12:02:14,165 - __main__ - INFO - 处理风险点: 提前确认营业收入
+2025-10-02 12:02:14,165 - src.utils.template_manager - INFO - 为风险点生成提示词: 提前确认营业收入
+2025-10-02 12:02:14,165 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:02:14,166 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:02:14,166 - __main__ - WARNING - 无法生成规则: 提前确认营业收入
+2025-10-02 12:02:14,166 - __main__ - INFO - 处理风险点: 虚增营业收入
+2025-10-02 12:02:14,166 - src.utils.template_manager - INFO - 为风险点生成提示词: 虚增营业收入
+2025-10-02 12:02:14,166 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:02:14,166 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:02:14,167 - __main__ - WARNING - 无法生成规则: 虚增营业收入
+2025-10-02 12:02:14,167 - __main__ - INFO - 处理风险点: 少计成本或费用
+2025-10-02 12:02:14,167 - src.utils.template_manager - INFO - 为风险点生成提示词: 少计成本或费用
+2025-10-02 12:02:14,167 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:02:14,167 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:02:14,167 - __main__ - WARNING - 无法生成规则: 少计成本或费用
+2025-10-02 12:02:14,167 - __main__ - INFO - 处理风险点: 持续经营假设不合理
+2025-10-02 12:02:14,167 - src.utils.template_manager - INFO - 为风险点生成提示词: 持续经营假设不合理
+2025-10-02 12:02:14,167 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:02:14,167 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:02:14,167 - __main__ - WARNING - 无法生成规则: 持续经营假设不合理
+2025-10-02 12:02:14,168 - __main__ - INFO - 处理风险点: 关联方占用资金
+2025-10-02 12:02:14,168 - src.utils.template_manager - INFO - 为风险点生成提示词: 关联方占用资金
+2025-10-02 12:02:14,168 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:02:14,168 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:02:14,168 - __main__ - WARNING - 无法生成规则: 关联方占用资金
+2025-10-02 12:02:14,168 - __main__ - INFO - 处理风险点: 短长期债务违约
+2025-10-02 12:02:14,168 - src.utils.template_manager - INFO - 为风险点生成提示词: 短长期债务违约
+2025-10-02 12:02:14,168 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:02:14,168 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:02:14,168 - __main__ - WARNING - 无法生成规则: 短长期债务违约
+2025-10-02 12:02:14,168 - __main__ - INFO - 处理风险点: 资产减值准备计提不足
+2025-10-02 12:02:14,168 - src.utils.template_manager - INFO - 为风险点生成提示词: 资产减值准备计提不足
+2025-10-02 12:02:14,169 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:02:14,169 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:02:14,169 - __main__ - WARNING - 无法生成规则: 资产减值准备计提不足
+2025-10-02 12:02:14,169 - __main__ - INFO - 处理风险点: 货币资金错报
+2025-10-02 12:02:14,169 - src.utils.template_manager - INFO - 为风险点生成提示词: 货币资金错报
+2025-10-02 12:02:14,169 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:02:14,169 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:02:14,169 - __main__ - WARNING - 无法生成规则: 货币资金错报
+2025-10-02 12:02:14,169 - __main__ - INFO - 处理风险点: 信用或资产减值损失错报
+2025-10-02 12:02:14,169 - src.utils.template_manager - INFO - 为风险点生成提示词: 信用或资产减值损失错报
+2025-10-02 12:02:14,169 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:02:14,169 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:02:14,169 - __main__ - WARNING - 无法生成规则: 信用或资产减值损失错报
+2025-10-02 12:02:14,169 - __main__ - INFO - 处理风险点: 合并范围异常变动
+2025-10-02 12:02:14,169 - src.utils.template_manager - INFO - 为风险点生成提示词: 合并范围异常变动
+2025-10-02 12:02:14,169 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:02:14,169 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:02:14,169 - __main__ - WARNING - 无法生成规则: 合并范围异常变动
+2025-10-02 12:02:14,170 - __main__ - INFO - 处理完成，共生成 0 条有效规则，保存至 outputs\rules_output_20251002_120214.json
+2025-10-02 12:07:27,631 - __main__ - INFO - 无监督风险模型挖掘系统启动
+2025-10-02 12:07:27,632 - __main__ - INFO - 使用模型: deepseek/deepseek-chat-v3.1:free
+2025-10-02 12:07:27,632 - src.utils.data_loader - INFO - 从文件 C:\Users\lenovo\Desktop\RiskMiningSystem\data\risk_points.json 加载到 10 个风险点
+2025-10-02 12:07:27,632 - __main__ - INFO - 加载到 10 个风险点
+2025-10-02 12:07:27,632 - src.core.rule_generator - WARNING - 未配置OpenRouter API密钥
+2025-10-02 12:07:27,632 - src.utils.data_loader - INFO - 从 TemplateManager 加载到 3 条示例规则
+2025-10-02 12:07:27,632 - __main__ - INFO - 处理风险点: 提前确认营业收入
+2025-10-02 12:07:27,633 - src.utils.template_manager - INFO - 为风险点生成提示词: 提前确认营业收入
+2025-10-02 12:07:27,633 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:07:27,633 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:07:27,633 - __main__ - WARNING - 无法生成规则: 提前确认营业收入
+2025-10-02 12:07:27,633 - __main__ - INFO - 处理风险点: 虚增营业收入
+2025-10-02 12:07:27,633 - src.utils.template_manager - INFO - 为风险点生成提示词: 虚增营业收入
+2025-10-02 12:07:27,633 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:07:27,633 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:07:27,633 - __main__ - WARNING - 无法生成规则: 虚增营业收入
+2025-10-02 12:07:27,633 - __main__ - INFO - 处理风险点: 少计成本或费用
+2025-10-02 12:07:27,633 - src.utils.template_manager - INFO - 为风险点生成提示词: 少计成本或费用
+2025-10-02 12:07:27,633 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:07:27,634 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:07:27,634 - __main__ - WARNING - 无法生成规则: 少计成本或费用
+2025-10-02 12:07:27,634 - __main__ - INFO - 处理风险点: 持续经营假设不合理
+2025-10-02 12:07:27,634 - src.utils.template_manager - INFO - 为风险点生成提示词: 持续经营假设不合理
+2025-10-02 12:07:27,634 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:07:27,634 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:07:27,634 - __main__ - WARNING - 无法生成规则: 持续经营假设不合理
+2025-10-02 12:07:27,634 - __main__ - INFO - 处理风险点: 关联方占用资金
+2025-10-02 12:07:27,634 - src.utils.template_manager - INFO - 为风险点生成提示词: 关联方占用资金
+2025-10-02 12:07:27,634 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:07:27,634 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:07:27,634 - __main__ - WARNING - 无法生成规则: 关联方占用资金
+2025-10-02 12:07:27,634 - __main__ - INFO - 处理风险点: 短长期债务违约
+2025-10-02 12:07:27,635 - src.utils.template_manager - INFO - 为风险点生成提示词: 短长期债务违约
+2025-10-02 12:07:27,635 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:07:27,635 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:07:27,635 - __main__ - WARNING - 无法生成规则: 短长期债务违约
+2025-10-02 12:07:27,635 - __main__ - INFO - 处理风险点: 资产减值准备计提不足
+2025-10-02 12:07:27,635 - src.utils.template_manager - INFO - 为风险点生成提示词: 资产减值准备计提不足
+2025-10-02 12:07:27,635 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:07:27,635 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:07:27,635 - __main__ - WARNING - 无法生成规则: 资产减值准备计提不足
+2025-10-02 12:07:27,635 - __main__ - INFO - 处理风险点: 货币资金错报
+2025-10-02 12:07:27,635 - src.utils.template_manager - INFO - 为风险点生成提示词: 货币资金错报
+2025-10-02 12:07:27,635 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:07:27,635 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:07:27,635 - __main__ - WARNING - 无法生成规则: 货币资金错报
+2025-10-02 12:07:27,636 - __main__ - INFO - 处理风险点: 信用或资产减值损失错报
+2025-10-02 12:07:27,636 - src.utils.template_manager - INFO - 为风险点生成提示词: 信用或资产减值损失错报
+2025-10-02 12:07:27,636 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:07:27,636 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:07:27,636 - __main__ - WARNING - 无法生成规则: 信用或资产减值损失错报
+2025-10-02 12:07:27,637 - __main__ - INFO - 处理风险点: 合并范围异常变动
+2025-10-02 12:07:27,637 - src.utils.template_manager - INFO - 为风险点生成提示词: 合并范围异常变动
+2025-10-02 12:07:27,637 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 12:07:27,637 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 12:07:27,637 - __main__ - WARNING - 无法生成规则: 合并范围异常变动
+2025-10-02 12:07:27,641 - __main__ - INFO - 处理完成，共生成 0 条有效规则，保存至 outputs\rules_output_20251002_120727.json
+2025-10-02 13:11:47,336 - __main__ - INFO - 无监督风险模型挖掘系统启动
+2025-10-02 13:11:47,337 - __main__ - INFO - 使用模型: deepseek/deepseek-chat-v3.1:free
+2025-10-02 13:11:47,348 - src.utils.data_loader - INFO - 从文件 C:\Users\lenovo\Desktop\RiskMiningSystem\data\risk_points.json 加载到 10 个风险点
+2025-10-02 13:11:47,349 - __main__ - INFO - 加载到 10 个风险点
+2025-10-02 13:11:47,349 - src.core.rule_generator - WARNING - 未配置OpenRouter API密钥
+2025-10-02 13:11:47,349 - src.utils.data_loader - INFO - 从 TemplateManager 加载到 3 条示例规则
+2025-10-02 13:11:47,349 - __main__ - INFO - 处理风险点: 提前确认营业收入
+2025-10-02 13:11:47,349 - src.utils.template_manager - INFO - 为风险点生成提示词: 提前确认营业收入
+2025-10-02 13:11:47,349 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:11:47,350 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:11:47,350 - __main__ - WARNING - 无法生成规则: 提前确认营业收入
+2025-10-02 13:11:47,351 - __main__ - INFO - 处理风险点: 虚增营业收入
+2025-10-02 13:11:47,351 - src.utils.template_manager - INFO - 为风险点生成提示词: 虚增营业收入
+2025-10-02 13:11:47,351 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:11:47,351 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:11:47,351 - __main__ - WARNING - 无法生成规则: 虚增营业收入
+2025-10-02 13:11:47,351 - __main__ - INFO - 处理风险点: 少计成本或费用
+2025-10-02 13:11:47,351 - src.utils.template_manager - INFO - 为风险点生成提示词: 少计成本或费用
+2025-10-02 13:11:47,351 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:11:47,351 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:11:47,351 - __main__ - WARNING - 无法生成规则: 少计成本或费用
+2025-10-02 13:11:47,352 - __main__ - INFO - 处理风险点: 持续经营假设不合理
+2025-10-02 13:11:47,352 - src.utils.template_manager - INFO - 为风险点生成提示词: 持续经营假设不合理
+2025-10-02 13:11:47,352 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:11:47,352 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:11:47,352 - __main__ - WARNING - 无法生成规则: 持续经营假设不合理
+2025-10-02 13:11:47,352 - __main__ - INFO - 处理风险点: 关联方占用资金
+2025-10-02 13:11:47,352 - src.utils.template_manager - INFO - 为风险点生成提示词: 关联方占用资金
+2025-10-02 13:11:47,352 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:11:47,352 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:11:47,352 - __main__ - WARNING - 无法生成规则: 关联方占用资金
+2025-10-02 13:11:47,352 - __main__ - INFO - 处理风险点: 短长期债务违约
+2025-10-02 13:11:47,352 - src.utils.template_manager - INFO - 为风险点生成提示词: 短长期债务违约
+2025-10-02 13:11:47,352 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:11:47,352 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:11:47,352 - __main__ - WARNING - 无法生成规则: 短长期债务违约
+2025-10-02 13:11:47,352 - __main__ - INFO - 处理风险点: 资产减值准备计提不足
+2025-10-02 13:11:47,352 - src.utils.template_manager - INFO - 为风险点生成提示词: 资产减值准备计提不足
+2025-10-02 13:11:47,352 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:11:47,352 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:11:47,353 - __main__ - WARNING - 无法生成规则: 资产减值准备计提不足
+2025-10-02 13:11:47,353 - __main__ - INFO - 处理风险点: 货币资金错报
+2025-10-02 13:11:47,353 - src.utils.template_manager - INFO - 为风险点生成提示词: 货币资金错报
+2025-10-02 13:11:47,353 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:11:47,353 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:11:47,353 - __main__ - WARNING - 无法生成规则: 货币资金错报
+2025-10-02 13:11:47,353 - __main__ - INFO - 处理风险点: 信用或资产减值损失错报
+2025-10-02 13:11:47,353 - src.utils.template_manager - INFO - 为风险点生成提示词: 信用或资产减值损失错报
+2025-10-02 13:11:47,353 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:11:47,353 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:11:47,353 - __main__ - WARNING - 无法生成规则: 信用或资产减值损失错报
+2025-10-02 13:11:47,353 - __main__ - INFO - 处理风险点: 合并范围异常变动
+2025-10-02 13:11:47,353 - src.utils.template_manager - INFO - 为风险点生成提示词: 合并范围异常变动
+2025-10-02 13:11:47,353 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:11:47,353 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:11:47,353 - __main__ - WARNING - 无法生成规则: 合并范围异常变动
+2025-10-02 13:11:47,354 - __main__ - INFO - 处理完成，共生成 0 条有效规则，保存至 outputs\rules_output_20251002_131147.json
+2025-10-02 13:29:24,296 - __main__ - INFO - 无监督风险模型挖掘系统启动
+2025-10-02 13:29:24,296 - __main__ - INFO - 使用模型: deepseek/deepseek-chat-v3.1:free
+2025-10-02 13:29:24,296 - src.utils.data_loader - INFO - 从文件 C:\Users\lenovo\Desktop\RiskMiningSystem\data\risk_points.json 加载到 10 个风险点
+2025-10-02 13:29:24,296 - __main__ - INFO - 加载到 10 个风险点
+2025-10-02 13:29:24,296 - src.core.rule_generator - WARNING - 未配置OpenRouter API密钥
+2025-10-02 13:29:24,297 - src.utils.data_loader - INFO - 从 TemplateManager 加载到 3 条示例规则
+2025-10-02 13:29:24,297 - __main__ - INFO - 处理风险点: 提前确认营业收入
+2025-10-02 13:29:24,297 - src.utils.template_manager - INFO - 为风险点生成提示词: 提前确认营业收入
+2025-10-02 13:29:24,297 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:29:24,297 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:29:24,297 - __main__ - WARNING - 无法生成规则: 提前确认营业收入
+2025-10-02 13:29:24,297 - __main__ - INFO - 处理风险点: 虚增营业收入
+2025-10-02 13:29:24,297 - src.utils.template_manager - INFO - 为风险点生成提示词: 虚增营业收入
+2025-10-02 13:29:24,297 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:29:24,297 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:29:24,298 - __main__ - WARNING - 无法生成规则: 虚增营业收入
+2025-10-02 13:29:24,298 - __main__ - INFO - 处理风险点: 少计成本或费用
+2025-10-02 13:29:24,298 - src.utils.template_manager - INFO - 为风险点生成提示词: 少计成本或费用
+2025-10-02 13:29:24,298 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:29:24,298 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:29:24,298 - __main__ - WARNING - 无法生成规则: 少计成本或费用
+2025-10-02 13:29:24,298 - __main__ - INFO - 处理风险点: 持续经营假设不合理
+2025-10-02 13:29:24,298 - src.utils.template_manager - INFO - 为风险点生成提示词: 持续经营假设不合理
+2025-10-02 13:29:24,298 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:29:24,298 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:29:24,299 - __main__ - WARNING - 无法生成规则: 持续经营假设不合理
+2025-10-02 13:29:24,299 - __main__ - INFO - 处理风险点: 关联方占用资金
+2025-10-02 13:29:24,299 - src.utils.template_manager - INFO - 为风险点生成提示词: 关联方占用资金
+2025-10-02 13:29:24,299 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:29:24,299 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:29:24,299 - __main__ - WARNING - 无法生成规则: 关联方占用资金
+2025-10-02 13:29:24,299 - __main__ - INFO - 处理风险点: 短长期债务违约
+2025-10-02 13:29:24,299 - src.utils.template_manager - INFO - 为风险点生成提示词: 短长期债务违约
+2025-10-02 13:29:24,299 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:29:24,299 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:29:24,299 - __main__ - WARNING - 无法生成规则: 短长期债务违约
+2025-10-02 13:29:24,299 - __main__ - INFO - 处理风险点: 资产减值准备计提不足
+2025-10-02 13:29:24,299 - src.utils.template_manager - INFO - 为风险点生成提示词: 资产减值准备计提不足
+2025-10-02 13:29:24,299 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:29:24,299 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:29:24,299 - __main__ - WARNING - 无法生成规则: 资产减值准备计提不足
+2025-10-02 13:29:24,299 - __main__ - INFO - 处理风险点: 货币资金错报
+2025-10-02 13:29:24,299 - src.utils.template_manager - INFO - 为风险点生成提示词: 货币资金错报
+2025-10-02 13:29:24,300 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:29:24,300 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:29:24,300 - __main__ - WARNING - 无法生成规则: 货币资金错报
+2025-10-02 13:29:24,301 - __main__ - INFO - 处理风险点: 信用或资产减值损失错报
+2025-10-02 13:29:24,301 - src.utils.template_manager - INFO - 为风险点生成提示词: 信用或资产减值损失错报
+2025-10-02 13:29:24,301 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:29:24,301 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:29:24,301 - __main__ - WARNING - 无法生成规则: 信用或资产减值损失错报
+2025-10-02 13:29:24,301 - __main__ - INFO - 处理风险点: 合并范围异常变动
+2025-10-02 13:29:24,301 - src.utils.template_manager - INFO - 为风险点生成提示词: 合并范围异常变动
+2025-10-02 13:29:24,302 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:29:24,302 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:29:24,302 - __main__ - WARNING - 无法生成规则: 合并范围异常变动
+2025-10-02 13:29:24,302 - __main__ - INFO - 处理完成，共生成 0 条有效规则，保存至 outputs\rules_output_20251002_132924.json
+2025-10-02 13:38:37,134 - __main__ - INFO - 无监督风险模型挖掘系统启动
+2025-10-02 13:38:37,135 - __main__ - INFO - 使用模型: deepseek/deepseek-chat-v3.1:free
+2025-10-02 13:38:37,135 - src.utils.data_loader - INFO - 从文件 C:\Users\lenovo\Desktop\RiskMiningSystem\data\risk_points.json 加载到 10 个风险点
+2025-10-02 13:38:37,135 - __main__ - INFO - 加载到 10 个风险点
+2025-10-02 13:38:37,841 - OpenRouterLLM - INFO - OpenRouter客户端初始化成功，模型: deepseek/deepseek-chat-v3.1:free
+2025-10-02 13:38:37,842 - src.core.rule_generator - INFO - 使用OpenRouter LLM: OpenRouterLLM(deepseek/deepseek-chat-v3.1:free)
+2025-10-02 13:38:37,842 - src.utils.data_loader - INFO - 从 TemplateManager 加载到 3 条示例规则
+2025-10-02 13:38:37,842 - __main__ - INFO - 处理风险点: 提前确认营业收入
+2025-10-02 13:38:37,842 - src.utils.template_manager - INFO - 为风险点生成提示词: 提前确认营业收入
+2025-10-02 13:38:37,843 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:38:37,843 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2848字符
+2025-10-02 13:38:43,507 - openai._base_client - INFO - Retrying request to /chat/completions in 0.486888 seconds
+2025-10-02 13:38:49,136 - openai._base_client - INFO - Retrying request to /chat/completions in 0.769328 seconds
+2025-10-02 13:38:56,204 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:38:56,216 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:38:56,217 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:38:56,217 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:38:56,217 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:38:56,217 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:38:56,217 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:38:56,217 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:38:56,217 - __main__ - WARNING - 无法生成规则: 提前确认营业收入
+2025-10-02 13:38:56,217 - __main__ - INFO - 处理风险点: 虚增营业收入
+2025-10-02 13:38:56,217 - src.utils.template_manager - INFO - 为风险点生成提示词: 虚增营业收入
+2025-10-02 13:38:56,217 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:38:56,217 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2846字符
+2025-10-02 13:38:56,484 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:38:56,487 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:38:56,487 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:38:56,487 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:38:56,488 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:38:56,489 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:38:56,490 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:38:56,490 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:38:56,490 - __main__ - WARNING - 无法生成规则: 虚增营业收入
+2025-10-02 13:38:56,490 - __main__ - INFO - 处理风险点: 少计成本或费用
+2025-10-02 13:38:56,491 - src.utils.template_manager - INFO - 为风险点生成提示词: 少计成本或费用
+2025-10-02 13:38:56,491 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:38:57,218 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-02 13:38:57,506 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:38:57,507 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:38:57,507 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:38:57,507 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:38:57,508 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:38:57,508 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:38:57,508 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:38:57,508 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:38:57,508 - __main__ - WARNING - 无法生成规则: 少计成本或费用
+2025-10-02 13:38:57,509 - __main__ - INFO - 处理风险点: 持续经营假设不合理
+2025-10-02 13:38:57,509 - src.utils.template_manager - INFO - 为风险点生成提示词: 持续经营假设不合理
+2025-10-02 13:38:57,509 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:38:58,218 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2849字符
+2025-10-02 13:38:58,450 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:38:58,451 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:38:58,451 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:38:58,452 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:38:58,452 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:38:58,452 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:38:58,452 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:38:58,452 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:38:58,452 - __main__ - WARNING - 无法生成规则: 持续经营假设不合理
+2025-10-02 13:38:58,453 - __main__ - INFO - 处理风险点: 关联方占用资金
+2025-10-02 13:38:58,453 - src.utils.template_manager - INFO - 为风险点生成提示词: 关联方占用资金
+2025-10-02 13:38:58,453 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:38:59,219 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-02 13:38:59,449 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:38:59,450 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:38:59,450 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:38:59,450 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:38:59,451 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:38:59,451 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:38:59,451 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:38:59,451 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:38:59,451 - __main__ - WARNING - 无法生成规则: 关联方占用资金
+2025-10-02 13:38:59,451 - __main__ - INFO - 处理风险点: 短长期债务违约
+2025-10-02 13:38:59,452 - src.utils.template_manager - INFO - 为风险点生成提示词: 短长期债务违约
+2025-10-02 13:38:59,452 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:39:00,220 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-02 13:39:00,536 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:39:00,537 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:39:00,537 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:39:00,537 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:39:00,537 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:39:00,537 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:39:00,538 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:39:00,538 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:39:00,538 - __main__ - WARNING - 无法生成规则: 短长期债务违约
+2025-10-02 13:39:00,538 - __main__ - INFO - 处理风险点: 资产减值准备计提不足
+2025-10-02 13:39:00,538 - src.utils.template_manager - INFO - 为风险点生成提示词: 资产减值准备计提不足
+2025-10-02 13:39:00,538 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:39:01,220 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2850字符
+2025-10-02 13:39:01,523 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:39:01,529 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:39:01,529 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:39:01,529 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:39:01,529 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:39:01,529 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:39:01,529 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:39:01,529 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:39:01,529 - __main__ - WARNING - 无法生成规则: 资产减值准备计提不足
+2025-10-02 13:39:01,529 - __main__ - INFO - 处理风险点: 货币资金错报
+2025-10-02 13:39:01,530 - src.utils.template_manager - INFO - 为风险点生成提示词: 货币资金错报
+2025-10-02 13:39:01,530 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:39:02,221 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2846字符
+2025-10-02 13:39:02,427 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:39:02,428 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:39:02,429 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:39:02,429 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:39:02,429 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:39:02,429 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:39:02,430 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:39:02,430 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:39:02,430 - __main__ - WARNING - 无法生成规则: 货币资金错报
+2025-10-02 13:39:02,430 - __main__ - INFO - 处理风险点: 信用或资产减值损失错报
+2025-10-02 13:39:02,430 - src.utils.template_manager - INFO - 为风险点生成提示词: 信用或资产减值损失错报
+2025-10-02 13:39:02,430 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:39:03,221 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2851字符
+2025-10-02 13:39:03,756 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:39:03,759 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:39:03,759 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:39:03,759 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:39:03,759 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:39:03,759 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:39:03,760 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:39:03,760 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:39:03,760 - __main__ - WARNING - 无法生成规则: 信用或资产减值损失错报
+2025-10-02 13:39:03,760 - __main__ - INFO - 处理风险点: 合并范围异常变动
+2025-10-02 13:39:03,760 - src.utils.template_manager - INFO - 为风险点生成提示词: 合并范围异常变动
+2025-10-02 13:39:03,760 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:39:04,222 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2848字符
+2025-10-02 13:39:04,430 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:39:04,431 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:39:04,432 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:39:04,432 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:39:04,432 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:39:04,432 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:39:04,433 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:39:04,433 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:39:04,433 - __main__ - WARNING - 无法生成规则: 合并范围异常变动
+2025-10-02 13:39:04,434 - __main__ - INFO - 处理完成，共生成 0 条有效规则，保存至 outputs\rules_output_20251002_133904.json
+2025-10-02 13:42:29,431 - __main__ - INFO - 无监督风险模型挖掘系统启动
+2025-10-02 13:42:29,431 - __main__ - INFO - 使用模型: deepseek/deepseek-chat-v3.1:free
+2025-10-02 13:42:29,432 - src.utils.data_loader - INFO - 从文件 C:\Users\lenovo\Desktop\RiskMiningSystem\data\risk_points.json 加载到 10 个风险点
+2025-10-02 13:42:29,432 - __main__ - INFO - 加载到 10 个风险点
+2025-10-02 13:42:30,086 - OpenRouterLLM - INFO - OpenRouter客户端初始化成功，模型: deepseek/deepseek-chat-v3.1:free
+2025-10-02 13:42:30,087 - src.core.rule_generator - INFO - 使用OpenRouter LLM: OpenRouterLLM(deepseek/deepseek-chat-v3.1:free)
+2025-10-02 13:42:30,087 - src.utils.data_loader - INFO - 从 TemplateManager 加载到 3 条示例规则
+2025-10-02 13:42:30,087 - __main__ - INFO - 处理风险点: 提前确认营业收入
+2025-10-02 13:42:30,087 - src.utils.template_manager - INFO - 为风险点生成提示词: 提前确认营业收入
+2025-10-02 13:42:30,088 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:42:30,088 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2848字符
+2025-10-02 13:42:36,282 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:42:36,288 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:42:36,288 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:42:36,288 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:42:36,289 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:42:36,289 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:42:36,290 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:42:36,290 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:42:36,291 - __main__ - WARNING - 无法生成规则: 提前确认营业收入
+2025-10-02 13:42:36,292 - __main__ - INFO - 处理风险点: 虚增营业收入
+2025-10-02 13:42:36,292 - src.utils.template_manager - INFO - 为风险点生成提示词: 虚增营业收入
+2025-10-02 13:42:36,292 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:42:36,292 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2846字符
+2025-10-02 13:42:36,578 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:42:36,581 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:42:36,581 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:42:36,582 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:42:36,582 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:42:36,582 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:42:36,583 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:42:36,583 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:42:36,584 - __main__ - WARNING - 无法生成规则: 虚增营业收入
+2025-10-02 13:42:36,585 - __main__ - INFO - 处理风险点: 少计成本或费用
+2025-10-02 13:42:36,585 - src.utils.template_manager - INFO - 为风险点生成提示词: 少计成本或费用
+2025-10-02 13:42:36,585 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:42:37,293 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-02 13:42:37,478 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:42:37,479 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:42:37,479 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:42:37,479 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:42:37,479 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:42:37,479 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:42:37,480 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:42:37,480 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:42:37,480 - __main__ - WARNING - 无法生成规则: 少计成本或费用
+2025-10-02 13:42:37,480 - __main__ - INFO - 处理风险点: 持续经营假设不合理
+2025-10-02 13:42:37,481 - src.utils.template_manager - INFO - 为风险点生成提示词: 持续经营假设不合理
+2025-10-02 13:42:37,481 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:42:38,294 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2849字符
+2025-10-02 13:42:38,473 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:42:38,474 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:42:38,474 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:42:38,475 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:42:38,475 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:42:38,476 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:42:38,476 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:42:38,477 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:42:38,477 - __main__ - WARNING - 无法生成规则: 持续经营假设不合理
+2025-10-02 13:42:38,477 - __main__ - INFO - 处理风险点: 关联方占用资金
+2025-10-02 13:42:38,477 - src.utils.template_manager - INFO - 为风险点生成提示词: 关联方占用资金
+2025-10-02 13:42:38,478 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:42:39,294 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-02 13:42:39,527 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:42:39,528 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:42:39,529 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:42:39,529 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:42:39,529 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:42:39,530 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:42:39,530 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:42:39,530 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:42:39,531 - __main__ - WARNING - 无法生成规则: 关联方占用资金
+2025-10-02 13:42:39,531 - __main__ - INFO - 处理风险点: 短长期债务违约
+2025-10-02 13:42:39,531 - src.utils.template_manager - INFO - 为风险点生成提示词: 短长期债务违约
+2025-10-02 13:42:39,532 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:42:40,295 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-02 13:42:40,555 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:42:40,556 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:42:40,556 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:42:40,556 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:42:40,556 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:42:40,557 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:42:40,557 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:42:40,557 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:42:40,557 - __main__ - WARNING - 无法生成规则: 短长期债务违约
+2025-10-02 13:42:40,557 - __main__ - INFO - 处理风险点: 资产减值准备计提不足
+2025-10-02 13:42:40,557 - src.utils.template_manager - INFO - 为风险点生成提示词: 资产减值准备计提不足
+2025-10-02 13:42:40,557 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:42:41,295 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2850字符
+2025-10-02 13:42:41,500 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:42:41,501 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:42:41,502 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:42:41,502 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:42:41,503 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:42:41,503 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:42:41,503 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:42:41,504 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:42:41,504 - __main__ - WARNING - 无法生成规则: 资产减值准备计提不足
+2025-10-02 13:42:41,505 - __main__ - INFO - 处理风险点: 货币资金错报
+2025-10-02 13:42:41,505 - src.utils.template_manager - INFO - 为风险点生成提示词: 货币资金错报
+2025-10-02 13:42:41,505 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:42:42,296 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2846字符
+2025-10-02 13:42:42,594 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:42:42,596 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:42:42,597 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:42:42,597 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:42:42,598 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:42:42,599 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:42:42,599 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:42:42,600 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:42:42,600 - __main__ - WARNING - 无法生成规则: 货币资金错报
+2025-10-02 13:42:42,600 - __main__ - INFO - 处理风险点: 信用或资产减值损失错报
+2025-10-02 13:42:42,601 - src.utils.template_manager - INFO - 为风险点生成提示词: 信用或资产减值损失错报
+2025-10-02 13:42:42,601 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:42:43,296 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2851字符
+2025-10-02 13:42:43,514 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:42:43,514 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:42:43,515 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:42:43,515 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:42:43,515 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:42:43,515 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:42:43,516 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:42:43,516 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:42:43,516 - __main__ - WARNING - 无法生成规则: 信用或资产减值损失错报
+2025-10-02 13:42:43,516 - __main__ - INFO - 处理风险点: 合并范围异常变动
+2025-10-02 13:42:43,516 - src.utils.template_manager - INFO - 为风险点生成提示词: 合并范围异常变动
+2025-10-02 13:42:43,517 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:42:44,297 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2848字符
+2025-10-02 13:42:44,491 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:42:44,492 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:42:44,492 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:42:44,493 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:42:44,493 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:42:44,493 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:42:44,494 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:42:44,494 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:42:44,494 - __main__ - WARNING - 无法生成规则: 合并范围异常变动
+2025-10-02 13:42:44,496 - __main__ - INFO - 处理完成，共生成 0 条有效规则，保存至 outputs\rules_output_20251002_134244.json
+2025-10-02 13:46:50,994 - __main__ - INFO - 无监督风险模型挖掘系统启动
+2025-10-02 13:46:50,994 - __main__ - INFO - 使用模型: deepseek/deepseek-chat-v3.1:free
+2025-10-02 13:46:50,995 - src.utils.data_loader - INFO - 从文件 C:\Users\lenovo\Desktop\RiskMiningSystem\data\risk_points.json 加载到 10 个风险点
+2025-10-02 13:46:50,995 - __main__ - INFO - 加载到 10 个风险点
+2025-10-02 13:46:51,672 - OpenRouterLLM - INFO - OpenRouter客户端初始化成功，模型: deepseek/deepseek-chat-v3.1:free
+2025-10-02 13:46:51,673 - src.core.rule_generator - INFO - 使用OpenRouter LLM: OpenRouterLLM(deepseek/deepseek-chat-v3.1:free)
+2025-10-02 13:46:51,673 - src.utils.data_loader - INFO - 从 TemplateManager 加载到 3 条示例规则
+2025-10-02 13:46:51,674 - __main__ - INFO - 处理风险点: 提前确认营业收入
+2025-10-02 13:46:51,674 - src.utils.template_manager - INFO - 为风险点生成提示词: 提前确认营业收入
+2025-10-02 13:46:51,674 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:46:51,674 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2848字符
+2025-10-02 13:46:58,116 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:46:58,124 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:46:58,124 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:46:58,125 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:46:58,128 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:46:58,129 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:46:58,129 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:46:58,129 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:46:58,129 - __main__ - WARNING - 无法生成规则: 提前确认营业收入
+2025-10-02 13:46:58,129 - __main__ - INFO - 处理风险点: 虚增营业收入
+2025-10-02 13:46:58,129 - src.utils.template_manager - INFO - 为风险点生成提示词: 虚增营业收入
+2025-10-02 13:46:58,129 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:46:58,129 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2846字符
+2025-10-02 13:46:58,315 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:46:58,319 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:46:58,319 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:46:58,320 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:46:58,321 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:46:58,321 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:46:58,321 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:46:58,321 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:46:58,322 - __main__ - WARNING - 无法生成规则: 虚增营业收入
+2025-10-02 13:46:58,322 - __main__ - INFO - 处理风险点: 少计成本或费用
+2025-10-02 13:46:58,322 - src.utils.template_manager - INFO - 为风险点生成提示词: 少计成本或费用
+2025-10-02 13:46:58,322 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:46:59,130 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-02 13:46:59,408 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:46:59,411 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:46:59,411 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:46:59,411 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:46:59,411 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:46:59,412 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:46:59,412 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:46:59,412 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:46:59,412 - __main__ - WARNING - 无法生成规则: 少计成本或费用
+2025-10-02 13:46:59,413 - __main__ - INFO - 处理风险点: 持续经营假设不合理
+2025-10-02 13:46:59,413 - src.utils.template_manager - INFO - 为风险点生成提示词: 持续经营假设不合理
+2025-10-02 13:46:59,413 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:47:00,130 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2849字符
+2025-10-02 13:47:00,321 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:47:00,325 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:47:00,325 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:47:00,326 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:47:00,326 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:47:00,326 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:47:00,327 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:47:00,327 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:47:00,327 - __main__ - WARNING - 无法生成规则: 持续经营假设不合理
+2025-10-02 13:47:00,327 - __main__ - INFO - 处理风险点: 关联方占用资金
+2025-10-02 13:47:00,327 - src.utils.template_manager - INFO - 为风险点生成提示词: 关联方占用资金
+2025-10-02 13:47:00,327 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:47:01,131 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-02 13:47:01,859 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:47:01,860 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:47:01,860 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:47:01,861 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:47:01,861 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:47:01,861 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:47:01,861 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:47:01,861 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:47:01,862 - __main__ - WARNING - 无法生成规则: 关联方占用资金
+2025-10-02 13:47:01,862 - __main__ - INFO - 处理风险点: 短长期债务违约
+2025-10-02 13:47:01,862 - src.utils.template_manager - INFO - 为风险点生成提示词: 短长期债务违约
+2025-10-02 13:47:01,862 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:47:02,132 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-02 13:47:02,668 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:47:02,669 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:47:02,670 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:47:02,670 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:47:02,671 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:47:02,671 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:47:02,671 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:47:02,672 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:47:02,672 - __main__ - WARNING - 无法生成规则: 短长期债务违约
+2025-10-02 13:47:02,673 - __main__ - INFO - 处理风险点: 资产减值准备计提不足
+2025-10-02 13:47:02,673 - src.utils.template_manager - INFO - 为风险点生成提示词: 资产减值准备计提不足
+2025-10-02 13:47:02,674 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:47:03,132 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2850字符
+2025-10-02 13:47:03,329 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:47:03,330 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:47:03,330 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:47:03,330 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:47:03,331 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:47:03,331 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:47:03,331 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:47:03,331 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:47:03,331 - __main__ - WARNING - 无法生成规则: 资产减值准备计提不足
+2025-10-02 13:47:03,331 - __main__ - INFO - 处理风险点: 货币资金错报
+2025-10-02 13:47:03,331 - src.utils.template_manager - INFO - 为风险点生成提示词: 货币资金错报
+2025-10-02 13:47:03,332 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:47:56,572 - __main__ - INFO - 无监督风险模型挖掘系统启动
+2025-10-02 13:47:56,572 - __main__ - INFO - 使用模型: deepseek/deepseek-chat-v3.1:free
+2025-10-02 13:47:56,573 - src.utils.data_loader - INFO - 从文件 C:\Users\lenovo\Desktop\RiskMiningSystem\data\risk_points.json 加载到 10 个风险点
+2025-10-02 13:47:56,573 - __main__ - INFO - 加载到 10 个风险点
+2025-10-02 13:47:57,236 - OpenRouterLLM - INFO - OpenRouter客户端初始化成功，模型: deepseek/deepseek-chat-v3.1:free
+2025-10-02 13:47:57,237 - src.core.rule_generator - INFO - 使用OpenRouter LLM: OpenRouterLLM(deepseek/deepseek-chat-v3.1:free)
+2025-10-02 13:47:57,237 - src.utils.data_loader - INFO - 从 TemplateManager 加载到 3 条示例规则
+2025-10-02 13:47:57,237 - __main__ - INFO - 处理风险点: 提前确认营业收入
+2025-10-02 13:47:57,237 - src.utils.template_manager - INFO - 为风险点生成提示词: 提前确认营业收入
+2025-10-02 13:47:57,237 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:47:57,238 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2848字符
+2025-10-02 13:48:03,393 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:48:03,400 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:48:03,400 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:48:03,400 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:48:03,401 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:48:03,401 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:48:03,401 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:48:03,401 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:48:03,401 - __main__ - WARNING - 无法生成规则: 提前确认营业收入
+2025-10-02 13:48:03,401 - __main__ - INFO - 处理风险点: 虚增营业收入
+2025-10-02 13:48:03,401 - src.utils.template_manager - INFO - 为风险点生成提示词: 虚增营业收入
+2025-10-02 13:48:03,401 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:48:03,401 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2846字符
+2025-10-02 13:48:03,595 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:48:03,600 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:48:03,600 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:48:03,601 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:48:03,601 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:48:03,601 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:48:03,602 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:48:03,602 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:48:03,604 - __main__ - WARNING - 无法生成规则: 虚增营业收入
+2025-10-02 13:48:03,604 - __main__ - INFO - 处理风险点: 少计成本或费用
+2025-10-02 13:48:03,604 - src.utils.template_manager - INFO - 为风险点生成提示词: 少计成本或费用
+2025-10-02 13:48:03,604 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:48:04,403 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-02 13:48:04,719 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:48:04,720 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:48:04,720 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:48:04,720 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:48:04,720 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:48:04,721 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:48:04,721 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:48:04,721 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:48:04,721 - __main__ - WARNING - 无法生成规则: 少计成本或费用
+2025-10-02 13:48:04,721 - __main__ - INFO - 处理风险点: 持续经营假设不合理
+2025-10-02 13:48:04,721 - src.utils.template_manager - INFO - 为风险点生成提示词: 持续经营假设不合理
+2025-10-02 13:48:04,721 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:48:05,403 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2849字符
+2025-10-02 13:48:05,608 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:48:05,617 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:48:05,617 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:48:05,617 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:48:05,617 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:48:05,617 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:48:05,617 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:48:05,618 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:48:05,618 - __main__ - WARNING - 无法生成规则: 持续经营假设不合理
+2025-10-02 13:48:05,621 - __main__ - INFO - 处理风险点: 关联方占用资金
+2025-10-02 13:48:05,621 - src.utils.template_manager - INFO - 为风险点生成提示词: 关联方占用资金
+2025-10-02 13:48:05,621 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:48:06,404 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-02 13:48:06,735 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:48:06,738 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:48:06,738 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:48:06,739 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:48:06,739 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:48:06,739 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:48:06,739 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:48:06,739 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:48:06,739 - __main__ - WARNING - 无法生成规则: 关联方占用资金
+2025-10-02 13:48:06,740 - __main__ - INFO - 处理风险点: 短长期债务违约
+2025-10-02 13:48:06,740 - src.utils.template_manager - INFO - 为风险点生成提示词: 短长期债务违约
+2025-10-02 13:48:06,740 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:48:07,405 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-02 13:48:07,619 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:48:07,620 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:48:07,623 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:48:07,625 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:48:07,625 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:48:07,625 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:48:07,625 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:48:07,626 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:48:07,626 - __main__ - WARNING - 无法生成规则: 短长期债务违约
+2025-10-02 13:48:07,626 - __main__ - INFO - 处理风险点: 资产减值准备计提不足
+2025-10-02 13:48:07,626 - src.utils.template_manager - INFO - 为风险点生成提示词: 资产减值准备计提不足
+2025-10-02 13:48:07,626 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:48:08,405 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2850字符
+2025-10-02 13:48:08,707 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:48:08,709 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:48:08,709 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:48:08,709 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:48:08,709 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:48:08,709 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:48:08,709 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:48:08,709 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:48:08,709 - __main__ - WARNING - 无法生成规则: 资产减值准备计提不足
+2025-10-02 13:48:08,709 - __main__ - INFO - 处理风险点: 货币资金错报
+2025-10-02 13:48:08,710 - src.utils.template_manager - INFO - 为风险点生成提示词: 货币资金错报
+2025-10-02 13:48:08,710 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:48:09,406 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2846字符
+2025-10-02 13:48:09,750 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:48:09,751 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:48:09,751 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:48:09,752 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:48:09,752 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:48:09,752 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:48:09,752 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:48:09,752 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:48:09,752 - __main__ - WARNING - 无法生成规则: 货币资金错报
+2025-10-02 13:48:09,752 - __main__ - INFO - 处理风险点: 信用或资产减值损失错报
+2025-10-02 13:48:09,753 - src.utils.template_manager - INFO - 为风险点生成提示词: 信用或资产减值损失错报
+2025-10-02 13:48:09,753 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:48:10,406 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2851字符
+2025-10-02 13:48:10,736 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:48:10,737 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:48:10,737 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:48:10,737 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:48:10,738 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:48:10,738 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:48:10,738 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:48:10,738 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:48:10,738 - __main__ - WARNING - 无法生成规则: 信用或资产减值损失错报
+2025-10-02 13:48:10,738 - __main__ - INFO - 处理风险点: 合并范围异常变动
+2025-10-02 13:48:10,738 - src.utils.template_manager - INFO - 为风险点生成提示词: 合并范围异常变动
+2025-10-02 13:48:10,738 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 13:48:11,408 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2848字符
+2025-10-02 13:48:11,700 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-10-02 13:48:11,701 - OpenRouterLLM - ERROR - 身份验证错误 (尝试 1/3): API密钥可能无效或已过期。详细错误: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2025-10-02 13:48:11,701 - OpenRouterLLM - ERROR - 所有API调用尝试均失败 (最大重试次数: 3)。请检查:
+2025-10-02 13:48:11,702 - OpenRouterLLM - ERROR - 1. OPENROUTER_API_KEY 环境变量是否正确设置
+2025-10-02 13:48:11,702 - OpenRouterLLM - ERROR - 2. 网络连接是否正常
+2025-10-02 13:48:11,703 - OpenRouterLLM - ERROR - 3. OpenRouter API是否可用
+2025-10-02 13:48:11,703 - OpenRouterLLM - ERROR - 4. 使用的模型名称 'deepseek/deepseek-chat-v3.1:free' 是否有效
+2025-10-02 13:48:11,703 - src.core.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-02 13:48:11,703 - __main__ - WARNING - 无法生成规则: 合并范围异常变动
+2025-10-02 13:48:11,704 - __main__ - INFO - 处理完成，共生成 0 条有效规则，保存至 outputs\rules_output_20251002_134811.json
+2025-10-02 15:17:23,347 - __main__ - INFO - 无监督风险模型挖掘系统启动
+2025-10-02 15:17:23,348 - __main__ - INFO - 使用模型: deepseek/deepseek-chat-v3.1:free
+2025-10-02 15:17:23,348 - src.utils.data_loader - INFO - 从文件 C:\Users\lenovo\Desktop\RiskMiningSystem\data\risk_points.json 加载到 10 个风险点
+2025-10-02 15:17:23,348 - __main__ - INFO - 加载到 10 个风险点
+2025-10-02 15:17:24,127 - OpenRouterLLM - INFO - OpenRouter客户端初始化成功，模型: deepseek/deepseek-chat-v3.1:free
+2025-10-02 15:17:24,127 - src.core.rule_generator - INFO - 使用OpenRouter LLM: OpenRouterLLM(deepseek/deepseek-chat-v3.1:free)
+2025-10-02 15:17:24,127 - src.utils.data_loader - INFO - 从 TemplateManager 加载到 3 条示例规则
+2025-10-02 15:17:24,127 - __main__ - INFO - 处理风险点: 提前确认营业收入
+2025-10-02 15:17:24,127 - src.utils.template_manager - INFO - 为风险点生成提示词: 提前确认营业收入
+2025-10-02 15:17:24,128 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 15:17:24,128 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2848字符
+2025-10-02 15:17:30,865 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 15:17:50,913 - OpenRouterLLM - INFO - LLM调用成功，响应长度=1068字符
+2025-10-02 15:17:50,914 - src.core.rule_generator - INFO - 规则生成完成: rule_20251002_509
+2025-10-02 15:17:50,914 - src.core.rule_validator - INFO - 开始验证规则: rule_20251002_509
+2025-10-02 15:17:50,914 - src.core.rule_validator - INFO - 规则验证通过: rule_20251002_509, 错误: []
+2025-10-02 15:17:50,914 - __main__ - INFO - 规则验证通过: 提前确认营业收入
+2025-10-02 15:17:50,914 - __main__ - INFO - 处理风险点: 虚增营业收入
+2025-10-02 15:17:50,915 - src.utils.template_manager - INFO - 为风险点生成提示词: 虚增营业收入
+2025-10-02 15:17:50,915 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 15:17:50,915 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2846字符
+2025-10-02 15:17:51,658 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 15:18:08,514 - OpenRouterLLM - INFO - LLM调用成功，响应长度=1081字符
+2025-10-02 15:18:08,514 - src.core.rule_generator - INFO - 规则生成完成: rule_20251002_342
+2025-10-02 15:18:08,515 - src.core.rule_validator - INFO - 开始验证规则: rule_20251002_342
+2025-10-02 15:18:08,515 - src.core.rule_validator - INFO - 规则验证通过: rule_20251002_342, 错误: []
+2025-10-02 15:18:08,515 - __main__ - INFO - 规则验证通过: 虚增营业收入
+2025-10-02 15:18:08,515 - __main__ - INFO - 处理风险点: 少计成本或费用
+2025-10-02 15:18:08,515 - src.utils.template_manager - INFO - 为风险点生成提示词: 少计成本或费用
+2025-10-02 15:18:08,515 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 15:18:08,515 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-02 15:18:09,397 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 15:18:19,789 - OpenRouterLLM - INFO - LLM调用成功，响应长度=813字符
+2025-10-02 15:18:19,790 - src.core.rule_generator - INFO - 规则生成完成: rule_20251002_281
+2025-10-02 15:18:19,790 - src.core.rule_validator - INFO - 开始验证规则: rule_20251002_281
+2025-10-02 15:18:19,790 - src.core.rule_validator - INFO - 规则验证通过: rule_20251002_281, 错误: []
+2025-10-02 15:18:19,791 - __main__ - INFO - 规则验证通过: 少计成本或费用
+2025-10-02 15:18:19,791 - __main__ - INFO - 处理风险点: 持续经营假设不合理
+2025-10-02 15:18:19,791 - src.utils.template_manager - INFO - 为风险点生成提示词: 持续经营假设不合理
+2025-10-02 15:18:19,791 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 15:18:19,791 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2849字符
+2025-10-02 15:18:20,526 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 15:18:30,211 - OpenRouterLLM - INFO - LLM调用成功，响应长度=807字符
+2025-10-02 15:18:30,211 - src.core.rule_generator - INFO - 规则生成完成: rule_20251002_548
+2025-10-02 15:18:30,212 - src.core.rule_validator - INFO - 开始验证规则: rule_20251002_548
+2025-10-02 15:18:30,212 - src.core.rule_validator - INFO - 规则验证通过: rule_20251002_548, 错误: []
+2025-10-02 15:18:30,212 - __main__ - INFO - 规则验证通过: 持续经营假设不合理
+2025-10-02 15:18:30,213 - __main__ - INFO - 处理风险点: 关联方占用资金
+2025-10-02 15:18:30,213 - src.utils.template_manager - INFO - 为风险点生成提示词: 关联方占用资金
+2025-10-02 15:18:30,213 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 15:18:30,214 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-02 15:18:31,219 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 15:18:39,654 - OpenRouterLLM - INFO - LLM调用成功，响应长度=805字符
+2025-10-02 15:18:39,655 - src.core.rule_generator - INFO - 规则生成完成: rule_20251002_146
+2025-10-02 15:18:39,655 - src.core.rule_validator - INFO - 开始验证规则: rule_20251002_146
+2025-10-02 15:18:39,655 - src.core.rule_validator - INFO - 规则验证通过: rule_20251002_146, 错误: []
+2025-10-02 15:18:39,656 - __main__ - INFO - 规则验证通过: 关联方占用资金
+2025-10-02 15:18:39,656 - __main__ - INFO - 处理风险点: 短长期债务违约
+2025-10-02 15:18:39,656 - src.utils.template_manager - INFO - 为风险点生成提示词: 短长期债务违约
+2025-10-02 15:18:39,656 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 15:18:39,656 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-02 15:18:40,425 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 15:18:52,600 - OpenRouterLLM - INFO - LLM调用成功，响应长度=793字符
+2025-10-02 15:18:52,601 - src.core.rule_generator - INFO - 规则生成完成: rule_20251002_629
+2025-10-02 15:18:52,601 - src.core.rule_validator - INFO - 开始验证规则: rule_20251002_629
+2025-10-02 15:18:52,601 - src.core.rule_validator - INFO - 规则验证通过: rule_20251002_629, 错误: []
+2025-10-02 15:18:52,601 - __main__ - INFO - 规则验证通过: 短长期债务违约
+2025-10-02 15:18:52,602 - __main__ - INFO - 处理风险点: 资产减值准备计提不足
+2025-10-02 15:18:52,602 - src.utils.template_manager - INFO - 为风险点生成提示词: 资产减值准备计提不足
+2025-10-02 15:18:52,602 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 15:18:52,602 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2850字符
+2025-10-02 15:18:53,988 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 15:19:03,341 - OpenRouterLLM - INFO - LLM调用成功，响应长度=815字符
+2025-10-02 15:19:03,341 - src.core.rule_generator - INFO - 规则生成完成: rule_20251002_719
+2025-10-02 15:19:03,341 - src.core.rule_validator - INFO - 开始验证规则: rule_20251002_719
+2025-10-02 15:19:03,341 - src.core.rule_validator - INFO - 规则验证通过: rule_20251002_719, 错误: []
+2025-10-02 15:19:03,341 - __main__ - INFO - 规则验证通过: 资产减值准备计提不足
+2025-10-02 15:19:03,341 - __main__ - INFO - 处理风险点: 货币资金错报
+2025-10-02 15:19:03,341 - src.utils.template_manager - INFO - 为风险点生成提示词: 货币资金错报
+2025-10-02 15:19:03,341 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 15:19:03,341 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2846字符
+2025-10-02 15:19:04,362 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 15:19:16,108 - OpenRouterLLM - INFO - LLM调用成功，响应长度=780字符
+2025-10-02 15:19:16,109 - src.core.rule_generator - INFO - 规则生成完成: rule_20251002_307
+2025-10-02 15:19:16,109 - src.core.rule_validator - INFO - 开始验证规则: rule_20251002_307
+2025-10-02 15:19:16,109 - src.core.rule_validator - INFO - 规则验证通过: rule_20251002_307, 错误: []
+2025-10-02 15:19:16,109 - __main__ - INFO - 规则验证通过: 货币资金错报
+2025-10-02 15:19:16,109 - __main__ - INFO - 处理风险点: 信用或资产减值损失错报
+2025-10-02 15:19:16,111 - src.utils.template_manager - INFO - 为风险点生成提示词: 信用或资产减值损失错报
+2025-10-02 15:19:16,111 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 15:19:16,111 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2851字符
+2025-10-02 15:19:16,986 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 15:19:28,768 - OpenRouterLLM - INFO - LLM调用成功，响应长度=816字符
+2025-10-02 15:19:28,769 - src.core.rule_generator - INFO - 规则生成完成: rule_20251002_611
+2025-10-02 15:19:28,769 - src.core.rule_validator - INFO - 开始验证规则: rule_20251002_611
+2025-10-02 15:19:28,769 - src.core.rule_validator - INFO - 规则验证通过: rule_20251002_611, 错误: []
+2025-10-02 15:19:28,769 - __main__ - INFO - 规则验证通过: 信用或资产减值损失错报
+2025-10-02 15:19:28,769 - __main__ - INFO - 处理风险点: 合并范围异常变动
+2025-10-02 15:19:28,770 - src.utils.template_manager - INFO - 为风险点生成提示词: 合并范围异常变动
+2025-10-02 15:19:28,770 - src.core.rule_generator - INFO - 开始生成规则
+2025-10-02 15:19:28,770 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2848字符
+2025-10-02 15:19:29,521 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-02 15:19:39,394 - OpenRouterLLM - INFO - LLM调用成功，响应长度=801字符
+2025-10-02 15:19:39,394 - src.core.rule_generator - INFO - 规则生成完成: rule_20251002_960
+2025-10-02 15:19:39,395 - src.core.rule_validator - INFO - 开始验证规则: rule_20251002_960
+2025-10-02 15:19:39,395 - src.core.rule_validator - INFO - 规则验证通过: rule_20251002_960, 错误: []
+2025-10-02 15:19:39,395 - __main__ - INFO - 规则验证通过: 合并范围异常变动
+2025-10-02 15:19:39,397 - __main__ - INFO - 处理完成，共生成 10 条有效规则，保存至 outputs\rules_output_20251002_151939.json
+2025-10-03 23:06:30,879 - __main__ - INFO - 无监督风险模型挖掘系统启动
+2025-10-03 23:06:30,880 - __main__ - INFO - 使用模型: deepseek/deepseek-chat-v3.1:free
+2025-10-03 23:06:30,881 - tools.data_loader - ERROR - 无法找到风险点文件: None 或 c:\Users\river\Desktop\VLDB-ZZY\RiskAnalysisSystem\data\risk_points.json
+2025-10-03 23:06:30,881 - __main__ - ERROR - 系统运行错误: 无法找到风险点文件: None 或 c:\Users\river\Desktop\VLDB-ZZY\RiskAnalysisSystem\data\risk_points.json
+2025-10-03 23:07:43,013 - __main__ - INFO - 无监督风险模型挖掘系统启动
+2025-10-03 23:07:43,013 - __main__ - INFO - 使用模型: deepseek/deepseek-chat-v3.1:free
+2025-10-03 23:07:43,014 - tools.data_loader - ERROR - 无法找到风险点文件: None 或 c:\Users\river\Desktop\VLDB-ZZY\RiskAnalysisSystem\RiskMiningAgent\tools\data\risk_points.json
+2025-10-03 23:07:43,014 - __main__ - ERROR - 系统运行错误: 无法找到风险点文件: None 或 c:\Users\river\Desktop\VLDB-ZZY\RiskAnalysisSystem\RiskMiningAgent\tools\data\risk_points.json
+2025-10-03 23:08:22,250 - __main__ - INFO - 无监督风险模型挖掘系统启动
+2025-10-03 23:08:22,250 - __main__ - INFO - 使用模型: deepseek/deepseek-chat-v3.1:free
+2025-10-03 23:08:22,251 - tools.data_loader - INFO - 从文件 c:\Users\river\Desktop\VLDB-ZZY\RiskAnalysisSystem\RiskMiningAgent\data\risk_points.json 加载到 10 个风险点
+2025-10-03 23:08:22,251 - __main__ - INFO - 加载到 10 个风险点
+2025-10-03 23:08:22,251 - nodes.rule_generator - WARNING - 未配置OpenRouter API密钥
+2025-10-03 23:08:22,252 - tools.data_loader - INFO - 从 TemplateManager 加载到 3 条示例规则
+2025-10-03 23:08:22,252 - __main__ - INFO - 处理风险点: 提前确认营业收入
+2025-10-03 23:08:22,252 - tools.template_manager - INFO - 为风险点生成提示词: 提前确认营业收入
+2025-10-03 23:08:22,252 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:08:22,253 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:08:22,253 - __main__ - WARNING - 无法生成规则: 提前确认营业收入
+2025-10-03 23:08:22,254 - __main__ - INFO - 处理风险点: 虚增营业收入
+2025-10-03 23:08:22,254 - tools.template_manager - INFO - 为风险点生成提示词: 虚增营业收入
+2025-10-03 23:08:22,254 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:08:22,254 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:08:22,255 - __main__ - WARNING - 无法生成规则: 虚增营业收入
+2025-10-03 23:08:22,255 - __main__ - INFO - 处理风险点: 少计成本或费用
+2025-10-03 23:08:22,255 - tools.template_manager - INFO - 为风险点生成提示词: 少计成本或费用
+2025-10-03 23:08:22,255 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:08:22,256 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:08:22,256 - __main__ - WARNING - 无法生成规则: 少计成本或费用
+2025-10-03 23:08:22,256 - __main__ - INFO - 处理风险点: 持续经营假设不合理
+2025-10-03 23:08:22,256 - tools.template_manager - INFO - 为风险点生成提示词: 持续经营假设不合理
+2025-10-03 23:08:22,256 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:08:22,257 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:08:22,257 - __main__ - WARNING - 无法生成规则: 持续经营假设不合理
+2025-10-03 23:08:22,257 - __main__ - INFO - 处理风险点: 关联方占用资金
+2025-10-03 23:08:22,258 - tools.template_manager - INFO - 为风险点生成提示词: 关联方占用资金
+2025-10-03 23:08:22,258 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:08:22,258 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:08:22,258 - __main__ - WARNING - 无法生成规则: 关联方占用资金
+2025-10-03 23:08:22,258 - __main__ - INFO - 处理风险点: 短长期债务违约
+2025-10-03 23:08:22,258 - tools.template_manager - INFO - 为风险点生成提示词: 短长期债务违约
+2025-10-03 23:08:22,258 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:08:22,258 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:08:22,258 - __main__ - WARNING - 无法生成规则: 短长期债务违约
+2025-10-03 23:08:22,258 - __main__ - INFO - 处理风险点: 资产减值准备计提不足
+2025-10-03 23:08:22,259 - tools.template_manager - INFO - 为风险点生成提示词: 资产减值准备计提不足
+2025-10-03 23:08:22,259 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:08:22,259 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:08:22,259 - __main__ - WARNING - 无法生成规则: 资产减值准备计提不足
+2025-10-03 23:08:22,259 - __main__ - INFO - 处理风险点: 货币资金错报
+2025-10-03 23:08:22,259 - tools.template_manager - INFO - 为风险点生成提示词: 货币资金错报
+2025-10-03 23:08:22,260 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:08:22,260 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:08:22,260 - __main__ - WARNING - 无法生成规则: 货币资金错报
+2025-10-03 23:08:22,260 - __main__ - INFO - 处理风险点: 信用或资产减值损失错报
+2025-10-03 23:08:22,260 - tools.template_manager - INFO - 为风险点生成提示词: 信用或资产减值损失错报
+2025-10-03 23:08:22,261 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:08:22,261 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:08:22,261 - __main__ - WARNING - 无法生成规则: 信用或资产减值损失错报
+2025-10-03 23:08:22,261 - __main__ - INFO - 处理风险点: 合并范围异常变动
+2025-10-03 23:08:22,262 - tools.template_manager - INFO - 为风险点生成提示词: 合并范围异常变动
+2025-10-03 23:08:22,262 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:08:22,262 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:08:22,262 - __main__ - WARNING - 无法生成规则: 合并范围异常变动
+2025-10-03 23:08:22,264 - __main__ - INFO - 处理完成，共生成 0 条有效规则，保存至 outputs\rules_output_20251003_230822.json
+2025-10-03 23:09:11,846 - __main__ - INFO - 无监督风险模型挖掘系统启动
+2025-10-03 23:09:11,846 - __main__ - INFO - 使用模型: deepseek/deepseek-chat-v3.1:free
+2025-10-03 23:09:11,848 - tools.data_loader - INFO - 从文件 c:\Users\river\Desktop\VLDB-ZZY\RiskAnalysisSystem\RiskMiningAgent\data\risk_points.json 加载到 10 个风险点
+2025-10-03 23:09:11,848 - __main__ - INFO - 加载到 10 个风险点
+2025-10-03 23:09:11,848 - nodes.rule_generator - WARNING - 未配置OpenRouter API密钥
+2025-10-03 23:09:11,848 - tools.data_loader - INFO - 从 TemplateManager 加载到 3 条示例规则
+2025-10-03 23:09:11,848 - __main__ - INFO - 处理风险点: 提前确认营业收入
+2025-10-03 23:09:11,849 - tools.template_manager - INFO - 为风险点生成提示词: 提前确认营业收入
+2025-10-03 23:09:11,849 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:09:11,849 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:09:11,849 - __main__ - WARNING - 无法生成规则: 提前确认营业收入
+2025-10-03 23:09:11,849 - __main__ - INFO - 处理风险点: 虚增营业收入
+2025-10-03 23:09:11,849 - tools.template_manager - INFO - 为风险点生成提示词: 虚增营业收入
+2025-10-03 23:09:11,850 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:09:11,850 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:09:11,850 - __main__ - WARNING - 无法生成规则: 虚增营业收入
+2025-10-03 23:09:11,850 - __main__ - INFO - 处理风险点: 少计成本或费用
+2025-10-03 23:09:11,850 - tools.template_manager - INFO - 为风险点生成提示词: 少计成本或费用
+2025-10-03 23:09:11,850 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:09:11,850 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:09:11,851 - __main__ - WARNING - 无法生成规则: 少计成本或费用
+2025-10-03 23:09:11,851 - __main__ - INFO - 处理风险点: 持续经营假设不合理
+2025-10-03 23:09:11,851 - tools.template_manager - INFO - 为风险点生成提示词: 持续经营假设不合理
+2025-10-03 23:09:11,851 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:09:11,851 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:09:11,851 - __main__ - WARNING - 无法生成规则: 持续经营假设不合理
+2025-10-03 23:09:11,851 - __main__ - INFO - 处理风险点: 关联方占用资金
+2025-10-03 23:09:11,851 - tools.template_manager - INFO - 为风险点生成提示词: 关联方占用资金
+2025-10-03 23:09:11,851 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:09:11,852 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:09:11,852 - __main__ - WARNING - 无法生成规则: 关联方占用资金
+2025-10-03 23:09:11,852 - __main__ - INFO - 处理风险点: 短长期债务违约
+2025-10-03 23:09:11,852 - tools.template_manager - INFO - 为风险点生成提示词: 短长期债务违约
+2025-10-03 23:09:11,852 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:09:11,852 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:09:11,853 - __main__ - WARNING - 无法生成规则: 短长期债务违约
+2025-10-03 23:09:11,853 - __main__ - INFO - 处理风险点: 资产减值准备计提不足
+2025-10-03 23:09:11,853 - tools.template_manager - INFO - 为风险点生成提示词: 资产减值准备计提不足
+2025-10-03 23:09:11,853 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:09:11,853 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:09:11,853 - __main__ - WARNING - 无法生成规则: 资产减值准备计提不足
+2025-10-03 23:09:11,853 - __main__ - INFO - 处理风险点: 货币资金错报
+2025-10-03 23:09:11,854 - tools.template_manager - INFO - 为风险点生成提示词: 货币资金错报
+2025-10-03 23:09:11,854 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:09:11,854 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:09:11,854 - __main__ - WARNING - 无法生成规则: 货币资金错报
+2025-10-03 23:09:11,854 - __main__ - INFO - 处理风险点: 信用或资产减值损失错报
+2025-10-03 23:09:11,854 - tools.template_manager - INFO - 为风险点生成提示词: 信用或资产减值损失错报
+2025-10-03 23:09:11,854 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:09:11,854 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:09:11,854 - __main__ - WARNING - 无法生成规则: 信用或资产减值损失错报
+2025-10-03 23:09:11,855 - __main__ - INFO - 处理风险点: 合并范围异常变动
+2025-10-03 23:09:11,855 - tools.template_manager - INFO - 为风险点生成提示词: 合并范围异常变动
+2025-10-03 23:09:11,855 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:09:11,855 - nodes.rule_generator - WARNING - LLM不可用或调用失败，无法生成规则
+2025-10-03 23:09:11,855 - __main__ - WARNING - 无法生成规则: 合并范围异常变动
+2025-10-03 23:09:11,857 - __main__ - INFO - 处理完成，共生成 0 条有效规则，保存至 outputs\rules_output_20251003_230911.json
+2025-10-03 23:10:01,943 - __main__ - INFO - 无监督风险模型挖掘系统启动
+2025-10-03 23:10:01,945 - __main__ - INFO - 使用模型: deepseek/deepseek-chat-v3.1:free
+2025-10-03 23:10:01,945 - tools.data_loader - INFO - 从文件 c:\Users\river\Desktop\VLDB-ZZY\RiskAnalysisSystem\RiskMiningAgent\data\risk_points.json 加载到 10 个风险点
+2025-10-03 23:10:01,946 - __main__ - INFO - 加载到 10 个风险点
+2025-10-03 23:10:02,223 - OpenRouterLLM - INFO - OpenRouter客户端初始化成功，模型: deepseek/deepseek-chat-v3.1:free
+2025-10-03 23:10:02,224 - nodes.rule_generator - INFO - 使用OpenRouter LLM: OpenRouterLLM(deepseek/deepseek-chat-v3.1:free)
+2025-10-03 23:10:02,224 - tools.data_loader - INFO - 从 TemplateManager 加载到 3 条示例规则
+2025-10-03 23:10:02,224 - __main__ - INFO - 处理风险点: 提前确认营业收入
+2025-10-03 23:10:02,224 - tools.template_manager - INFO - 为风险点生成提示词: 提前确认营业收入
+2025-10-03 23:10:02,225 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:10:02,225 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2848字符
+2025-10-03 23:10:04,273 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 23:10:26,793 - OpenRouterLLM - INFO - LLM调用成功，响应长度=1075字符
+2025-10-03 23:10:26,794 - nodes.rule_generator - INFO - 规则生成完成: rule_20251003_459
+2025-10-03 23:10:26,794 - tools.rule_validator - INFO - 开始验证规则: rule_20251003_459
+2025-10-03 23:10:26,795 - tools.rule_validator - INFO - 规则验证通过: rule_20251003_459, 错误: []
+2025-10-03 23:10:26,795 - __main__ - INFO - 规则验证通过: 提前确认营业收入
+2025-10-03 23:10:26,795 - __main__ - INFO - 处理风险点: 虚增营业收入
+2025-10-03 23:10:26,795 - tools.template_manager - INFO - 为风险点生成提示词: 虚增营业收入
+2025-10-03 23:10:26,795 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:10:26,795 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2846字符
+2025-10-03 23:10:27,623 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 23:10:47,566 - OpenRouterLLM - INFO - LLM调用成功，响应长度=1075字符
+2025-10-03 23:10:47,566 - nodes.rule_generator - INFO - 规则生成完成: rule_20251003_203
+2025-10-03 23:10:47,566 - tools.rule_validator - INFO - 开始验证规则: rule_20251003_203
+2025-10-03 23:10:47,566 - tools.rule_validator - INFO - 规则验证通过: rule_20251003_203, 错误: []
+2025-10-03 23:10:47,566 - __main__ - INFO - 规则验证通过: 虚增营业收入
+2025-10-03 23:10:47,566 - __main__ - INFO - 处理风险点: 少计成本或费用
+2025-10-03 23:10:47,566 - tools.template_manager - INFO - 为风险点生成提示词: 少计成本或费用
+2025-10-03 23:10:47,568 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:10:47,569 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-03 23:10:48,616 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 23:10:59,357 - OpenRouterLLM - INFO - LLM调用成功，响应长度=760字符
+2025-10-03 23:10:59,357 - nodes.rule_generator - INFO - 规则生成完成: rule_20251003_927
+2025-10-03 23:10:59,357 - tools.rule_validator - INFO - 开始验证规则: rule_20251003_927
+2025-10-03 23:10:59,357 - tools.rule_validator - INFO - 规则验证通过: rule_20251003_927, 错误: []
+2025-10-03 23:10:59,357 - __main__ - INFO - 规则验证通过: 少计成本或费用
+2025-10-03 23:10:59,358 - __main__ - INFO - 处理风险点: 持续经营假设不合理
+2025-10-03 23:10:59,358 - tools.template_manager - INFO - 为风险点生成提示词: 持续经营假设不合理
+2025-10-03 23:10:59,358 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:10:59,358 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2849字符
+2025-10-03 23:11:00,155 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 23:11:11,458 - OpenRouterLLM - INFO - LLM调用成功，响应长度=805字符
+2025-10-03 23:11:11,458 - nodes.rule_generator - INFO - 规则生成完成: rule_20251003_936
+2025-10-03 23:11:11,458 - tools.rule_validator - INFO - 开始验证规则: rule_20251003_936
+2025-10-03 23:11:11,459 - tools.rule_validator - INFO - 规则验证通过: rule_20251003_936, 错误: []
+2025-10-03 23:11:11,459 - __main__ - INFO - 规则验证通过: 持续经营假设不合理
+2025-10-03 23:11:11,459 - __main__ - INFO - 处理风险点: 关联方占用资金
+2025-10-03 23:11:11,459 - tools.template_manager - INFO - 为风险点生成提示词: 关联方占用资金
+2025-10-03 23:11:11,459 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:11:11,460 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-03 23:11:12,590 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 23:11:27,472 - OpenRouterLLM - INFO - LLM调用成功，响应长度=812字符
+2025-10-03 23:11:27,472 - nodes.rule_generator - INFO - 规则生成完成: rule_20251003_652
+2025-10-03 23:11:27,473 - tools.rule_validator - INFO - 开始验证规则: rule_20251003_652
+2025-10-03 23:11:27,473 - tools.rule_validator - INFO - 规则验证通过: rule_20251003_652, 错误: []
+2025-10-03 23:11:27,473 - __main__ - INFO - 规则验证通过: 关联方占用资金
+2025-10-03 23:11:27,473 - __main__ - INFO - 处理风险点: 短长期债务违约
+2025-10-03 23:11:27,473 - tools.template_manager - INFO - 为风险点生成提示词: 短长期债务违约
+2025-10-03 23:11:27,473 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:11:27,473 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2847字符
+2025-10-03 23:11:28,400 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 23:11:42,729 - OpenRouterLLM - INFO - LLM调用成功，响应长度=801字符
+2025-10-03 23:11:42,730 - nodes.rule_generator - INFO - 规则生成完成: rule_20251003_923
+2025-10-03 23:11:42,730 - tools.rule_validator - INFO - 开始验证规则: rule_20251003_923
+2025-10-03 23:11:42,730 - tools.rule_validator - INFO - 规则验证通过: rule_20251003_923, 错误: []
+2025-10-03 23:11:42,730 - __main__ - INFO - 规则验证通过: 短长期债务违约
+2025-10-03 23:11:42,731 - __main__ - INFO - 处理风险点: 资产减值准备计提不足
+2025-10-03 23:11:42,731 - tools.template_manager - INFO - 为风险点生成提示词: 资产减值准备计提不足
+2025-10-03 23:11:42,731 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:11:42,731 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2850字符
+2025-10-03 23:11:43,469 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 23:11:58,549 - OpenRouterLLM - INFO - LLM调用成功，响应长度=766字符
+2025-10-03 23:11:58,550 - nodes.rule_generator - INFO - 规则生成完成: rule_20251003_130
+2025-10-03 23:11:58,550 - tools.rule_validator - INFO - 开始验证规则: rule_20251003_130
+2025-10-03 23:11:58,550 - tools.rule_validator - INFO - 规则验证通过: rule_20251003_130, 错误: []
+2025-10-03 23:11:58,550 - __main__ - INFO - 规则验证通过: 资产减值准备计提不足
+2025-10-03 23:11:58,551 - __main__ - INFO - 处理风险点: 货币资金错报
+2025-10-03 23:11:58,551 - tools.template_manager - INFO - 为风险点生成提示词: 货币资金错报
+2025-10-03 23:11:58,551 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:11:58,551 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2846字符
+2025-10-03 23:11:59,289 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 23:12:16,584 - OpenRouterLLM - INFO - LLM调用成功，响应长度=833字符
+2025-10-03 23:12:16,585 - nodes.rule_generator - INFO - 规则生成完成: rule_20251003_335
+2025-10-03 23:12:16,585 - tools.rule_validator - INFO - 开始验证规则: rule_20251003_335
+2025-10-03 23:12:16,585 - tools.rule_validator - INFO - 规则验证通过: rule_20251003_335, 错误: []
+2025-10-03 23:12:16,585 - __main__ - INFO - 规则验证通过: 货币资金错报
+2025-10-03 23:12:16,585 - __main__ - INFO - 处理风险点: 信用或资产减值损失错报
+2025-10-03 23:12:16,585 - tools.template_manager - INFO - 为风险点生成提示词: 信用或资产减值损失错报
+2025-10-03 23:12:16,585 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:12:16,585 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2851字符
+2025-10-03 23:12:17,828 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 23:12:33,767 - OpenRouterLLM - INFO - LLM调用成功，响应长度=813字符
+2025-10-03 23:12:33,768 - nodes.rule_generator - INFO - 规则生成完成: rule_20251003_553
+2025-10-03 23:12:33,769 - tools.rule_validator - INFO - 开始验证规则: rule_20251003_553
+2025-10-03 23:12:33,769 - tools.rule_validator - INFO - 规则验证通过: rule_20251003_553, 错误: []
+2025-10-03 23:12:33,770 - __main__ - INFO - 规则验证通过: 信用或资产减值损失错报
+2025-10-03 23:12:33,770 - __main__ - INFO - 处理风险点: 合并范围异常变动
+2025-10-03 23:12:33,770 - tools.template_manager - INFO - 为风险点生成提示词: 合并范围异常变动
+2025-10-03 23:12:33,770 - nodes.rule_generator - INFO - 开始生成规则
+2025-10-03 23:12:33,771 - OpenRouterLLM - INFO - LLM调用尝试 1/3: 模型=deepseek/deepseek-chat-v3.1:free, 提示词长度=2848字符
+2025-10-03 23:12:34,904 - httpx - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-03 23:12:54,025 - OpenRouterLLM - INFO - LLM调用成功，响应长度=1070字符
+2025-10-03 23:12:54,025 - nodes.rule_generator - INFO - 规则生成完成: rule_20251003_284
+2025-10-03 23:12:54,025 - tools.rule_validator - INFO - 开始验证规则: rule_20251003_284
+2025-10-03 23:12:54,025 - tools.rule_validator - INFO - 规则验证通过: rule_20251003_284, 错误: []
+2025-10-03 23:12:54,026 - __main__ - INFO - 规则验证通过: 合并范围异常变动
+2025-10-03 23:12:54,028 - __main__ - INFO - 处理完成，共生成 10 条有效规则，保存至 outputs\rules_output_20251003_231254.json
